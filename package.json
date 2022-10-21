@@ -24,9 +24,7 @@
     "@types/mongoose": "^5.11.97",
     "@types/validator": "^13.7.6",
     "rimraf": "^3.0.2",
-    "tsc": "^2.0.4",
-    "tsc-watch": "^5.0.3",
-    "typescript": "^4.8.4"
+    "tsc-watch": "^5.0.3"
   },
   "dependencies": {
     "bcrypt": "^5.0.1",
