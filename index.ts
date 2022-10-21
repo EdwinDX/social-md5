@@ -12,7 +12,7 @@ dotenv.config();
 app.use(cors());
 
 // connection
-const DB_URL = `mongodb://localhost:27017/md5`;
+const DB_URL = `${process.env.MONGO_URL}`;
 mongoose.connect(DB_URL).then(() => {
   console.log("DB Connected");
 });
