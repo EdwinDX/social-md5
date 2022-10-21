@@ -31,7 +31,7 @@ app.use(body_parser_1.default.json());
 // app.use(errorHandler);
 app.use("", routes_1.router);
 // app.use(errorHandler);
-const port = process.env.APP_PORT || 8000;
-app.listen(port, () => {
-    console.log("sever is running port ", port);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log("sever is running port ", PORT);
 });
