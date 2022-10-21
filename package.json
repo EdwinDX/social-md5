@@ -9,8 +9,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "rimraf dist && tsc -p tsconfig.build.json",
-    "start1": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/index.js\"",
-    "start": "node dist/index.js"
+    "start": "tsc-watch -p tsconfig.build.json --onSuccess \"node dist/index.js\"",
+    "start1": "node dist/index.js"
   },
   "keywords": [],
   "author": "",
