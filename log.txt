@@ -1,0 +1,16 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
+<<<<<<< HEAD
+Unexpected string in JSON at position 33
+=======
+
+E11000 duplicate key error collection: phakebook.users index: username_1 dup key: { username: "thangnv1" }
+Unexpected token } in JSON at position 50
+
+>>>>>>> 231d7cc47ad52fb499ce57ff18aeb1e2e21f5166
+=======
+Unexpected string in JSON at position 24
+>>>>>>> thang
+=======
+Cannot read properties of undefined (reading 'split')
+>>>>>>> thang
